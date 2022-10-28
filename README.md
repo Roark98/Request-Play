@@ -6,7 +6,7 @@ Sistema de recomendación de lugares turísticos y naturales del Ecuador.
 ***
 
 <p align='center'>
-<img src="./docs/imgs/test.png" alt="drawing" height="160" width=60% align='center'/>
+<img src="./docs/imgs/EcuaTourism_logo.png" alt="logo" height="160" width=60% align='center'/>
 </p>
 
 
