@@ -6,6 +6,6 @@
 
 Repositorio de prácticas y proyecto de la asignatura de Cloud Computing.
 
-##Listado de hitos
+## Listado de hitos
 
 - Hito 0: Configuración de github y descripción del proyecto
