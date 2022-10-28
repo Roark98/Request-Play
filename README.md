@@ -8,8 +8,8 @@ Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
 
 ## Hito 0
 
-* Configuración de git y Github
-* Verificación en dos pasos
-* Descripción del proyecto
+* [Aquí] Configuración de git y Github.
+* [Aquí] Verificación en dos pasos.
+* [Aquí] Descripción del proyecto.
 
 En construcción...
