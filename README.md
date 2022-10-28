@@ -8,6 +8,6 @@ Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
 
 ## Listado de hitos
 
-* [Hito 0](https://github.com/Roark98/EcuaTourism/tree/main/docs/hito_0): Descripción del problema a resolver usando correctamente git y GitHub.
+### Hito 0
 
 En construcción...
