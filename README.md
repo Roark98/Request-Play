@@ -12,4 +12,16 @@ Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
 * :lock: Verificación en dos pasos.
 * :pencil: Descripción del proyecto.
 
+## Hito 1
+
+## Hito 2
+
+## Hito 3
+
+## Hito 4
+
+## Hito 5
+
+## Hito 6
+
 En construcción...
