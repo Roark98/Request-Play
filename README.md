@@ -9,8 +9,8 @@ Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
 ## Hito 0: Descripción del problema a resolver usando correctamente git y GitHub
 
 * :hammer:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/repo_config.md)] Configuración de git y Github.
-* :lock:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/repo_config.md)] Verificación en dos pasos.
-* :pencil:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/repo_config.md)] Descripción del proyecto.
+* :lock:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/two_step_verification.md)] Verificación en dos pasos.
+* :pencil:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/project_description.md)] Descripción del proyecto.
 
 ## Hito 1
 
