@@ -1,10 +1,15 @@
 # :airplane: EcuaTourism :airplane:
 
+---
+### Proyecto para la asignatura de Cloud Computing del Máster en Ingeniería Informática de la UGR.
+Sistema de recomendación de lugares turísticos y naturales del Ecuador.
+***
+
 <p align='center'>
 <img src="./docs/imgs/EcuaTourism_logo.png" alt="drawing" height="160" width=60% align='center'/>
 </p>
 
-Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
+
 
 ## Hito 0: Descripción del problema a resolver usando correctamente git y GitHub
 
