@@ -9,13 +9,13 @@ Sistema de recomendación de lugares turísticos y naturales del Ecuador.
 <img src="./docs/imgs/EcuaTourism_logo.png" alt="logo" height="160" width=60% align='center'/>
 </p>
 
+## :pencil: Descripción del Proyecto :pencil:
 
 
 ## Hito 0: Descripción del problema a resolver usando correctamente git y GitHub
 
 * :hammer:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/repo_config.md)] Configuración de git y Github.
 * :lock:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/two_step_verification.md)] Verificación en dos pasos.
-* :pencil:  [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/project_description.md)] Descripción del proyecto.
 
 ## Hito 1
 
