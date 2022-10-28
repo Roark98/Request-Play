@@ -8,7 +8,7 @@ Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
 
 ## Hito 0: Descripción del problema a resolver usando correctamente git y GitHub
 
-* :hammer: [Ir](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/repo_config.md) a configuración de git y Github.
+* :hammer: [[Ir](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_0/repo_config.md)] Configuración de git y Github.
 * :lock: Verificación en dos pasos.
 * :pencil: Descripción del proyecto.
 
