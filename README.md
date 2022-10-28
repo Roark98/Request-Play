@@ -1,4 +1,4 @@
-# 🇪🇨 EcuaTourism 🇪🇨
+# :ecuador: EcuaTourism 🇪🇨
 
 <p align='center'>
 <img src="./docs/imgs/EcuaTourism_logo.png" alt="drawing" height="160" width=60% align='center'/>
