@@ -4,7 +4,7 @@
 <img src="./docs/imgs/EcuaTourism_logo.png" alt="drawing" height="160" width=70% align='center'/>
 </p>
 
-Repositorio de prácticas y proyecto de la asignatura de Cloud Computing.
+Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
 
 ## Listado de hitos
 
