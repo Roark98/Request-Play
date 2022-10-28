@@ -17,7 +17,7 @@ Con el fin de poder manejar nuestros repositorios desde nuestro entorno local a 
 Habiendo generado la clave privada y pública dentro de la carpeta .ssh, ésta última procederemos a registrar dentro de nuestro perfil de Github. Dentro de `Perfil > Settings > SSH and GPG Keys > New SSH Key` añadiremos la correspondiente cadena de caracteres que nos permitirá enlazar nuestro equipo con la cuenta en cuestión.
 
 <p align='center'>
-<img src="../imgs/saved_key.png" alt="ssh_key" height="160" width=55% align='center'/>
+<img src="../imgs/saved_key.png" alt="ssh_key" height="200" width=65% align='center'/>
 </p>
 
 
