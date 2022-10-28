@@ -8,7 +8,7 @@ Repositorio del proyecto EcuaTourism para la asignatura de Cloud Computing.
 
 ## Listado de hitos
 
-### Hito 0
+##### Hito 0
 
 Nojosad
 
