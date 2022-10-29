@@ -14,6 +14,10 @@ Para este proyecto se está utilizando una cuenta de Github previamente creada, 
 
 Con el fin de poder manejar nuestros repositorios desde nuestro entorno local a través de git, se procede a generar un par de llaves ssh que serán utilizadas para verificar nuestra identidad con la plataforma de Github. Para llevar a cabo la generación de estas credenciales, dentro de nuestra consola empleamos el comando: `ssh-keygen -t ed25519 -C "email@gmail.com"`.
 
+<p align='center'>
+<img src="../imgs/key_gen.png" alt="key_generation" height="300" width=60% align='center'/>
+</p>
+
 Habiendo generado la clave privada y pública dentro de la carpeta .ssh, ésta última procederemos a registrar dentro de nuestro perfil de Github. Dentro de `Perfil > Settings > SSH and GPG Keys > New SSH Key` añadiremos la correspondiente cadena de caracteres que nos permitirá enlazar nuestro equipo con la cuenta en cuestión.
 
 <p align='center'>
