@@ -11,6 +11,13 @@ Sistema de recomendación de lugares turísticos y naturales del Ecuador.
 
 ## :pencil: Descripción del Proyecto :pencil:
 
+¿Estás interesado en viajar y conocer tierras ecuatorianas? ¿Al buscar en Google siempre encuentras los mismos sitios turísticos?
+
+EcuaTourism es una aplicación que busca ser el mejor amigo del viajero interesado en visitar Ecuador. Gracias a su extensa base de datos de lugares turísticos y sus numerosos filtros, este sistema pretende acoplarse a todo tipo de gustos y necesidades.
+
+¿Deseas buscar únicamente sitios costeros? ¿Prefieres sitios históricos? ¿Quizás mejor lugares de gratis acceso? ¿O qué tal una experiencia totalmente natural visitando entornos llenos de biodiversidad animal y vegetal? Con EcuaTourism podrás ir más allá de los típicos sitios para extranjeros y conocer realmente lo que Ecuador tiene para ofrecer. :earth_americas: ¡All you need is Ecuador! :earth_americas:
+
+***
 
 ## Hito 0: Descripción del problema a resolver usando correctamente git y GitHub
 
