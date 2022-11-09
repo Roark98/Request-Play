@@ -15,6 +15,10 @@
 ## Milestones
 
 - :mount_fuji: [[Hito-1](https://github.com/Roark98/EcuaTourism/milestone/1)] Consulta de lugares turísticos del Ecuador
+    * 🎯 Objetivo: Mostrar al usuario el catálogo completo de lugares disponibles para visitar en Ecuador, junto con información relevante del sitio en cuestión, como datos históricos, horario de atención, temperatura promedio, etc.
 - :eyes: [[Hito-2](https://github.com/Roark98/EcuaTourism/milestone/2)] Sistema de búsqueda y filtrado de lugares
+    * 🎯 Objetivo: Permitir al usuario ya sea buscar datos específicos de un sitio en específico a través del nombre del mismo, o bien filtrar todos los lugares turísticos que coincidan con las características que especifique el usuario.
 - :star: [[Hito-3](https://github.com/Roark98/EcuaTourism/milestone/3)] Sistema de favoritos
+    * 🎯 Objetivo: Asociar una cuenta a cada usuario, dentro de la cual se le permita guardar una lista de sitios favoritos.
 - :construction_worker: [[Hito-4](https://github.com/Roark98/EcuaTourism/milestone/4)] Sistema de administración de sitios turísticos
+    * 🎯 Objetivo: Dotar a los usuarios administradores de las herramientas necesarias para poder mantener actualizado el contenido del sistema, además de añadir o eliminar sitios turísticos.
