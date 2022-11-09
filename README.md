@@ -26,6 +26,9 @@ EcuaTourism es una aplicación que busca ser el mejor amigo del viajero interesa
 
 ## Hito 1
 
+* :man: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_1/historias_usuarios.md)] Información acerca de las historias de usuarios en base a las que se desarrolla el proyecto.
+* :zap: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_1/primeras_decisiones.md)] Primeras decisiones tomadas con respecto al trabajo.
+
 ## Hito 2
 
 ## Hito 3
