@@ -2,7 +2,7 @@
 Se ha decidido desarrollar el proyecto utilizando Javascript, junto a NodeJS como entorno de ejecución.
 
 ## Clases definidas de manera preliminar
-1. Clase Lugar
+1. Clase Lugar :round_pushpin:
     * ID:
     * Nombre del lugar:
     * Tipo: Histórico/Natural/Nocturno/Costero
@@ -10,7 +10,7 @@ Se ha decidido desarrollar el proyecto utilizando Javascript, junto a NodeJS com
     * Costo de visita:
     * Horario:
     * Ciudad:
-3. Clase Persona
+3. Clase Persona :godmode:
     * ID:
     * Usuario:
     * Contraseña:
