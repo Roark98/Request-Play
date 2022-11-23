@@ -43,3 +43,13 @@ De manera preliminar, las tareas que podrán ejecutarse a través del gestor npm
 - `npm run dev`: Permite iniciar el servidor haciendo uso de la dependencia `nodemon`, vuelve a lanzar el servidor luego de que se haya modificado alguno de los ficheros del proyecto.
 
 ## Tests preliminares
+
+Pese a que ya se han desarrollado varios tests a nivel de endpoints, aquí se mencionan los primeros tests unitarios del proyecto. Estos fueron dirigidos a la recuperación y modificación de datos provenientes de la tabla `Lugar`. Éstos se encuentran dentro del fichero `unit.tests.js`.
+
+<p align='center'>
+<img src="../imgs/tests.png" alt="github_profile" height="300" width=40% align='center'/>
+</p>
+
+A continuación, se establece una correspondencia entre los tests unitarios y las historias de usuario que han sido atendidas hasta el momento:
+- [HU 4]: Herramientas de administrador - Se comprueba la posibilidad de crear, modificar y eliminar lugares específicos.
+- [HU 1]: Visualización de lugares turísticos - Se comprueba que se obtiene un arreglo no vacío de lugares una vez realizada la consulta.
