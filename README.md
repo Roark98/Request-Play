@@ -31,8 +31,7 @@ EcuaTourism es una aplicación que busca ser el mejor amigo del viajero interesa
 
 ## Hito 2
 
-* :bust_in_silhouette: [[Visitar](https://github.com/Roark98/EcuaTourism/tree/main/docs/hito_2)] Gestor de tareas, biblioteca de aserciones y testing framework utilizados.
-* :microscope: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_2/tests.md)] Tests preliminares.
+* :microscope: [[Visitar](https://github.com/Roark98/EcuaTourism/tree/main/docs/hito_2)] Gestor de tareas, biblioteca de aserciones, testing framework, y tests preliminares.
 
 ## Hito 3
 
