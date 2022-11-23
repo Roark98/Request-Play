@@ -1,8 +1,8 @@
 ## Lenguaje de Programación
-Se ha decidido desarrollar el proyecto utilizando Javascript, junto a NodeJS como entorno de ejecución. A su vez se utilizarán los siguientes módulos/framworks obtenidos mediante el gesto de paquete NPM:
+Se ha decidido desarrollar el proyecto utilizando Javascript, junto a NodeJS como entorno de ejecución. A su vez se utilizarán los siguientes módulos/framworks obtenidos mediante el gestor de paquetes NPM:
 * Express
-* Morgan
-* EJS
+* Nodemon
+* pg
 
 ## Clases definidas de manera preliminar
 1. :round_pushpin: Clase Lugar
