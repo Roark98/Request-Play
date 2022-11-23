@@ -14,7 +14,11 @@ Basándonos ahora en lo que ambos marcos ofrecen, podemos observar que Mocha deb
 
 Adicionalmente, Jest nos permite generar un reporta referente a la cobertura del código (code coverage ratio) registrado durante el testing. Esto se consigue únicamente empleando el flag `--coverage` de Jest, mientra que en el caso de Mocha, esto es posible de obtener, pero nuevamente haciendo uso de una biblioteca adicional.
 
-Por estas razones, y con el fin de no elevar considerablemente la complejidad del proyecto, se ha decidido optar por Jest como marco de pruebas.
+Por estas razones, y con el fin de no elevar considerablemente la complejidad del proyecto, se ha decidido optar por Jest como marco de pruebas. Este framework es instalado como dependencia de desarrollo mediante npm utilizando el comando:
+
+``` 
+npm install -D jest
+```
 
 ## Biblioteca de aserciones
 
