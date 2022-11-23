@@ -22,7 +22,13 @@ npm install -D jest
 
 ## Biblioteca de aserciones
 
-Como ya se dijo en el apartado anterior, el rol de biblioteca de aserciones será tomado también por Jest, al éste ya contar con sistema de aserciones incorporadas bastadas en 'expect()'
+Como ya se dijo en el apartado anterior, el rol de biblioteca de aserciones será tomado también por Jest, al éste ya contar con sistema de aserciones incorporadas bastadas en `expect()`.
+
+<p align='center'>
+<img src="../imgs/aserciones.png" alt="github_profile" height="350" width=20% align='center'/>
+</p>
+
+Todas las aserciones que ofrece Jest se encuentran detalladas en su documentación [aquí](https://jestjs.io/docs/expect).
 
 ## Gestor de tareas
 
@@ -35,3 +41,5 @@ De manera preliminar, las tareas que podrán ejecutarse a través del gestor npm
 - `npm start`: Inicia el respectivo servidor
 - `npm run test`: Ejecuta los tests descritos en los respectivos archivos de testing.
 - `npm run dev`: Permite iniciar el servidor haciendo uso de la dependencia `nodemon`, vuelve a lanzar el servidor luego de que se haya modificado alguno de los ficheros del proyecto.
+
+## Tests preliminares
