@@ -1,0 +1,1 @@
+# Elección de imagen base
