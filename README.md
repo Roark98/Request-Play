@@ -35,6 +35,10 @@ EcuaTourism es una aplicación que busca ser el mejor amigo del viajero interesa
 
 ## Hito 3
 
+* :whale: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_3/docker-justification.md)] Elección de imagen base para el proyecto.
+* :whale2: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_3/dockerfile-creation.md)] Creación del fichero Dockerfile.
+* :computer: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_3/docker-auto.md)] Automatización de la publicación de la imagen Docker.
+
 ## Hito 4
 
 ## Hito 5
