@@ -3,10 +3,10 @@ FROM node:alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY ./api/package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY ./api/ .
 
 CMD ["npm", "run", "test"]
