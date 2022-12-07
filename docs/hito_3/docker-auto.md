@@ -1,1 +1,1 @@
-# Automatización de subida de imagen a DockerHub
+# Automatización de subida de imagen a DockerHub mediante Github Actions
