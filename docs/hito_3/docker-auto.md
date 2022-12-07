@@ -28,14 +28,25 @@ name: Log in to Docker Hub
 <img src="../imgs/secrets.png" alt="docker-test" height="140" width=65% align='center'/>
 </p>
 
-* 
+* En cuanto al paso referente a la metadata dentro del *workflow*, nos encontramos que al momento de publicar la imagen en DockerHub, ésta siempre será subida con el tag de *latest*, con el fin de que cualquier usuario que decida hacer un pull de nuestra imagen sin especificar el tag, éste reciba siempre la última versión disponible. Esto se hace debido a que, de no hacer esto, por defecto Github publicaría nuestra imagen usando el nombre de nuestro repositorio para el tag.
+
+```
+name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+        with:
+          images: red98/ecuatourism
+          tags: latest
+```
+
+Finalmente, una vez que se lleve a cabo un push, dentro del apartado de *Actions* podremos hacer seguimiento de la ejecución de cada uno de los pasos de nuestra acción, pudiendo finalmente contemplar en DockeHub nuestra imagen publicada en nuestro respectivo [repositorio](https://hub.docker.com/repository/docker/red98/ecuatourism) público.
 
 <p align='center'>
-<img src="../imgs/action-upload.png" alt="docker-test" height="140" width=65% align='center'/>
+<img src="../imgs/action-upload.png" alt="docker-test" height="240" width=65% align='center'/>
 </p>
 
 <p align='center'>
-<img src="../imgs/dockerhub.png" alt="docker-test" height="140" width=65% align='center'/>
+<img src="../imgs/dockerhub.png" alt="docker-test" height="300" width=65% align='center'/>
 </p>
 
 ## Publicación automática de imagen Docker en Github Container Registry
@@ -49,9 +60,9 @@ Por estos motivos, pese a que no se desea despreciar a una plataforma tan utiliz
 
 Con el fin de poder publicar nuestra imagen de forma automática a este servicio, se ha optado por nuevamente apoyarnos en un *workflow* de Github Actions que, por el momento, subirá nuestra imagen después de cada commit que se registre en nuestro repositorio de Github.
 
-La estructura de este [fichero](https://github.com/Roark98/EcuaTourism/blob/main/.github/workflows/docker-registry.yml) replica en su mayoría al utilizado para la publicación automática en DockerHub. Principalmente, estos dos *workflows* difieren en los pasos de login y subida.
+La estructura de este [fichero](https://github.com/Roark98/EcuaTourism/blob/main/.github/workflows/docker-registry.yml) replica en su mayoría al utilizado para la publicación automática en DockerHub. Principalmente, estos dos *workflows* difieren en el paso de login.
 
-Por obvias razones, en 
+Por obvias razones, se reemplaza la conexión a DockerHub, usando ahora en su lugar un paso de autenticación a Github Container Registry. Gracias a que para esta plataforma se usan las mismas credenciales que para la autenticación en Github, se pueden aprovechar las variables de entorno `github.actor` y `secrets.GITHUB_TOKEN` para el usuario y contraseña respectivamente.
 
 ```
 name: Login to GitHub Container Registry
@@ -62,12 +73,8 @@ name: Login to GitHub Container Registry
           password: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-```
-name: Build and push GitHub Container Registry image
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-```
+De esta forma, una vez que un push sea recibido en la rama principal, podemos observar la correcta publicación automática de la respectiva imagen dentro de los *packages* asociados a este repositorio.
+
+<p align='center'>
+<img src="../imgs/registry.png" alt="docker-test" height="340" width=65% align='center'/>
+</p>
