@@ -1,3 +1,12 @@
+## Consideraciones previas
+Desde luego, antes de hablar sobre decisiones relacionadas con contenedores primero requeriremos disponer de Docker en nuestro equipo. Al ser este proyecto desarrollado en Windows 10, el disponer de esta herramienta no basta únicamente con la descarga e instalación de la misma desde su [página oficial](https://www.docker.com/). En concreto, nos apoyaremos en el subsistema de Windows para Linux (WSL2) para poder utilizar Docker. Dicho kernel de linux puede obtenerse directamente desde la página de [Microsoft](https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package).
+
+Adicionalmente, debemos asegurarnos de contar con las características `Plataforma de máquina virtual` y `Subsistema de Windows para Linux`.
+
+<p align='center'>
+<img src="../imgs/WSL.png" alt="images" height="300" width=30% align='center'/>
+</p>
+
 ## Elección de imagen base para creación de contenedor Docker
 
 Al momento de elaborar nuestro fichero Dockerfile, la imagen resultante de éste deberá basarse en una previamente creada. Teniendo esto en consideración, la decisión a tomarse se basará principalmente en el lenguaje y entorno de ejecución definido en hitos anteriores. De esta manera, surgen tres potenciales candidatos que permiten la instanciación de contenedores con node ya incorporado.
