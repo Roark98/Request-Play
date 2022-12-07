@@ -39,3 +39,10 @@ Ahora, procedemos a instanciar y ejecutar un contenedor a partir de la imagen pr
 ```
 docker run -t -v `pwd`:/app/test ecuatourism
 ```
+Se destaca el uso de la bandera `-t` para llevar a cabo una ejecución en modo TTY, y `-v` para el montaje de un volumen en el contenedor. En este caso, se monta el directorio actual en el directorio `/app/test` del contenedor, donde se encuentra el código de mi aplicación.
+
+<p align='center'>
+<img src="../imgs/docker-test.png" alt="docker-test" height="320" width=45% align='center'/>
+</p>
+
+Una vez ejecutado el contenedor, podemos observar que los tests tanto unitarios como a nivel de endpoints siguen siendo superados tal y como se esperaba.
