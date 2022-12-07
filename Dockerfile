@@ -1,7 +1,7 @@
 FROM node:alpine
 
 
-WORKDIR /app
+WORKDIR /app/test
 
 COPY ./api/package*.json ./
 
