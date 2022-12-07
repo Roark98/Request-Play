@@ -7,3 +7,11 @@ Al momento de elaborar nuestro fichero Dockerfile, la imagen resultante de éste
 * Node:slim - Muy similar a node:alpine, esta imagen ofrece un entorno node de tamaño considerablemente reducido, pero esta vez a la mínima expresión. Esta imagen apoyada en Debian provee las herramientas estrictamente necesarias para el funcionamiento del entorno de ejecución.
 
 Debido a que se busca el desarrollo de un proyecto considerablemente sencillo, y al ver que las tres opciones cumplen con permitir la ejecución de código en el lenguaje seleccionado, se decidió profundizar más en los requerimientos de espacio de cada uno, para así decantarnos por el más ligero.
+
+<p align='center'>
+<img src="../imgs/images.png" alt="images" height="130" width=60% align='center'/>
+</p>
+
+Después de utilizar los tres distintos candidatos para la elaboración de la imagen de nuestro proyecto, se puede apreciar un considerable ahorro de recursos al optar por aquella apoyada en la distribución Alpine Linux. A esto, se le suma que dicha alternativa es destacada por múltiples [autores](https://snyk.io/blog/choosing-the-best-node-js-docker-image/) por presentar el menor número de vulnerabilidades.
+
+Una vez tomada la decisión referente a la imagen base, podemos proceder a elaborar nuestro fichero [Dockerfile](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_3/dockerfile-creation.md).
