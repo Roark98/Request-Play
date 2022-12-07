@@ -5,7 +5,7 @@ WORKDIR /app/test
 
 COPY ./api/package*.json ./
 
-RUN npm install
+RUN npm install && npm update && npm cache clean --force
 
 COPY ./api/ .
 
