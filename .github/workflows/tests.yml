@@ -4,10 +4,10 @@ on:
   push:
     branches: [ main ]
 jobs:
-  test-exec:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Testing
-        run:
-          docker-compose up
+      - name: Checkout code
+        uses: actions/checkout@v3
+        uses: actions/setup-node@v3
+      - run: npm run test
