@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Tests in Docker container"
-          command: docker --version
+          command: docker version
 
 workflows:
   ci-testing:
