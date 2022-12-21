@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Testing
         run:
-          docker-compose up --abort-on-container-exit
+          docker-compose up
