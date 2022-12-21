@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Tests in Docker container"
-          command: npm run test
+          command: docker run -t -v `pwd`:/app/test red98/ecuatourism
 
 workflows:
   ci-testing:
