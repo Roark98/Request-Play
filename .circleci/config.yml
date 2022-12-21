@@ -12,6 +12,7 @@ jobs:
       - run:
           name: "Running tests in Docker container"
           command: docker compose up
+          command: docker compose down
 
 # Invoke jobs via workflows
 workflows:
