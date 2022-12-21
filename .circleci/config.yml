@@ -6,7 +6,7 @@ jobs:
       - image: red98/ecuatourism:latest
     steps:
       - checkout
-      - run: npm run test
+      - run: pwd
 
 workflows:
   ci-testing:
