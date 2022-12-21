@@ -47,3 +47,5 @@ Finalmente, al realizar un commit dentro de nuestro repositorio, al dirigirnos a
 <p align='center'>
 <img src="../imgs/CI-TESTS.png" alt="docker-test" height="270" width=65% align='center'/>
 </p>
+
+A manera de respaldo, se utilizó también Github Actions como sistema de integración continua adicional, cuyo archivo de configuración puede encontrarse [aquí](https://github.com/Roark98/EcuaTourism/blob/main/.github/workflows/tests.yml).
