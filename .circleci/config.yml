@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: "Tests in Docker container"
-          command: docker run -t -v `pwd`:/app/test red98/ecuatourism
+          command: docker run -t -v 'pwd':/app/test red98/ecuatourism
 
 workflows:
   ci-testing:
