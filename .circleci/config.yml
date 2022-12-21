@@ -11,8 +11,7 @@ jobs:
       - checkout
       - run:
           name: "Running tests in Docker container"
-          command: docker compose up
-          command: docker compose down
+          command: docker-compose -f docker-compose.yml up \--abort-on-container-exit \--exit-code-from service-test
 
 # Invoke jobs via workflows
 workflows:
