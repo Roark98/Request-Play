@@ -13,4 +13,4 @@ jobs:
 workflows:
   ci-testing:
     jobs:
-      - tests
+      - docker-tests
