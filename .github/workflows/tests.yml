@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Lanzar Tests
         run:
-          echo 'hola'
+          docker version
