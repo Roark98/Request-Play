@@ -1,12 +1,17 @@
 name: Tests
+
 on:
   push:
-    branches: [ main ]
+    paths:
+      - ".github/workflows/*"
+      - "docker-compose.yml"
+      - "Dockerfile"
+
 jobs:
-  build:
+  lanzar_test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        uses: actions/setup-node@v3
-        run: npm run test
+      - uses: actions/checkout@v2
+      - name: Lanzar Tests
+        run:
+          echo 'hola'
