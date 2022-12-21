@@ -5,8 +5,8 @@ jobs:
     docker:
       - image: red98/ecuatourism
       auth:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+      - username: ${{ secrets.DOCKER_USERNAME }}
+      - password: ${{ secrets.DOCKER_PASSWORD }}
     steps:
       - checkout
       - run:
