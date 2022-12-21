@@ -100,5 +100,3 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
-# Dockerignore
-.dockerignore
