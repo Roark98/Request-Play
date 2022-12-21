@@ -1,16 +1,16 @@
 version: '3.5'
 services:
   db:
+    container_name: postgresdb
     image: postgres
-    container_name: db
-    volumes:
-      - ./api/database/database.sql:/docker-entrypoint-initdb.d/database.sql
     restart: always
+    ports:
+      - 5432:5432
     environment:
       POSTGRES_PASSWORD: 1379
       POSTGRES_DB: ecuatourism
-    ports:
-      - 5432:5432
+    volumes: 
+      - ./api/database/database.sql:/docker-entrypoint-initdb.d/database.sql
 
   ecuatourism:
     build: .
