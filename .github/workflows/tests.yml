@@ -14,4 +14,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Lanzar Tests
         run:
-          docker-compose up
+          docker-compose up  --abort-on-container-exit
