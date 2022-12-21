@@ -3,12 +3,10 @@ version: 2.1
 jobs:
   docker-tests:
     docker:
-      - image: red98/ecuatourism
+      - image: red98/ecuatourism:latest
     steps:
       - checkout
-      - run:
-          name: "Tests in Docker container"
-          command: docker version
+      - run: npm run test
 
 workflows:
   ci-testing:
