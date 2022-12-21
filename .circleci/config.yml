@@ -1,0 +1,16 @@
+version: 2.1
+
+jobs:
+  docker-tests:
+    docker:
+      - image: red98/ecuatourism
+    steps:
+      - checkout
+      - run:
+        name: "Tests in Docker container"
+        command: npm run test
+
+workflows:
+  ci-testing:
+    jobs:
+      - tests
