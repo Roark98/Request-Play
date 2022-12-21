@@ -41,6 +41,9 @@ EcuaTourism es una aplicación que busca ser el mejor amigo del viajero interesa
 
 ## Hito 4
 
+* :electric_plug: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_4/eleccionCI.md)] Elección de sistema de integración continua (CI).
+* :wrench: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_4/configCI.md)] Configuración y uso de CircleCI.
+
 ## Hito 5
 
 ## Hito 6
