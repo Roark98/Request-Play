@@ -7,8 +7,8 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "Tests in Docker container"
-        command: npm run test
+          name: "Tests in Docker container"
+          command: npm run test
 
 workflows:
   ci-testing:
