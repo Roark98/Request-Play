@@ -14,8 +14,7 @@ Se ha decidido desarrollar el proyecto utilizando Javascript, junto a NodeJS com
     * **Región**: Región del Ecuador donde se encuentra el destino seleccionado. (Posibles valores: Costa/Sierra/Oriente/Galápagos).
     * **Descripción**: Contenido escrito que abarque datos, historia, y costumbres ecuatorianas relacionadas con la locación asociada.
     * **Contador de visitas**: Número de visitas registradas por dicho sitio turístico.
-    * **Contador de reseñas**: Número de reseñas recibidas por dicho sitio turístico.
-    * **Valoración general**: Valoración promedio recibida por parte de los usuarios que han calificado dicho lugar.
+
 3. :godmode: Clase Persona
     * **ID**: Identificador único asignado a cada usuario registrado en la plataforma.
     * **Usuario**: Nombre del usuario registrado.
