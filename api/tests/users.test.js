@@ -10,7 +10,6 @@ const initial_user = {
   email: "red@example.com",
   password: "password",
   role: "admin",
-  favorites_array: [],
 };
 
 beforeAll(async () => {
@@ -18,7 +17,7 @@ beforeAll(async () => {
   await pool.query("TRUNCATE TABLE users");
   // Insert initial_lugares into table lugar
   await pool.query(
-    "INSERT INTO users VALUES ($1, $2, $3, $4, $5, $6)",
+    "INSERT INTO users VALUES ($1, $2, $3, $4, $5)",
     Object.values(initial_user)
   );
 });
@@ -37,6 +36,33 @@ describe("GET /users", () => {
       .expect("Content-Type", /application\/json/);
   });
 });
+
+describe("POST /users", () => {
+  test("a new user should be registered", async () => {
+    const newUser = {
+      username: "newuser",
+      email: "user@gmail.com",
+      password: "newpassword",
+      role: "user",
+    };
+    await api.post("/api/users/register").send(newUser).expect(201);
+  });
+  test("POST /users/login", async () => {
+    const loginCredentials = {
+      email: "user@gmail.com",
+      password: "newpassword",
+    };
+    await api.post("/api/users/login").send(loginCredentials).expect(200);
+  });
+});
+
+describe("PUT /users", () => {
+  test("a user can modify their favorite places", async () => {
+    const updatedFavorites = {favorites: [10, 11, 12]};
+    await api.put("/api/users/favorites/0").send(updatedFavorites).expect(200);
+  });
+})
+
 
 afterAll(() => {
   server.close();

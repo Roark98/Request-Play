@@ -5,14 +5,13 @@ const pool = require("../src/database.js");
 const api = request(app);
 
 const initial_lugar = {
-  id: 0,
-  image: "test.jpg",
+  id:0,
   name: "test",
   description: "Test description",
   type: "Natural",
   cost: 0,
   city: "Guayaquil",
-  region: "Costa",
+  region: "Costa"
 };
 
 beforeAll(async () => {
@@ -20,7 +19,7 @@ beforeAll(async () => {
   await pool.query("TRUNCATE TABLE lugar");
   // Insert initial_lugares into table lugar
   await pool.query(
-    "INSERT INTO lugar VALUES ($1, $2, $3, $4, $5, $6, $7, $8)",
+    "INSERT INTO lugar VALUES ($1, $2, $3, $4, $5, $6, $7)",
     Object.values(initial_lugar)
   );
 });
@@ -56,20 +55,19 @@ describe("GET /lugares", () => {
 describe("POST /lugares", () => {
   const example_lugares = [
     {
-      image: "post.jpg",
       name: "Post Test",
       description: "Example description - POST Test",
       type: "Historia",
       cost: 10.2,
       city: "Quito",
-      region: "Sierra",
+      region: "Sierra"
     },
   ];
   test("a valid lugar can be added", async () => {
     await api
       .post("/api/lugares")
       .send(example_lugares[0])
-      .expect(200)
+      .expect(201)
       .expect("Content-Type", /application\/json/);
   });
 });

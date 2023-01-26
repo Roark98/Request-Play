@@ -14,6 +14,6 @@ router.get("/", getUsers);
 router.get("/:id", getUserById);
 router.post("/register", createUser);
 router.post("/login", loginUser);
-router.put("/:id", updateFavorites);
+router.put("/favorites/:id", updateFavorites);
 
 module.exports = router;

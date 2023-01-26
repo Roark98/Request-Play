@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage --silent --maxWorkers=1",
+    "test": "jest --coverage --silent --maxWorkers=1",
     "unit-test": "jest -- ./tests/unit.test.js --verbose --coverage --silent --maxWorkers=1",
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
@@ -14,7 +14,9 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "morgan": "^1.10.0",
     "pg": "^8.8.0"
   },
   "devDependencies": {
