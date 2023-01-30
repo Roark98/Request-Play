@@ -48,3 +48,5 @@ EcuaTourism es una aplicación que busca ser el mejor amigo del viajero interesa
 * :door:: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_5/elecci%C3%B3n_api_framework.md) Elección de framework para creación de REST API.
 * :trident: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_5/REST_API.md) Definición de rutas, manejos de logs y tests.
 
+## Hito 6
+* :whale2:: [[Visitar](https://github.com/Roark98/EcuaTourism/blob/main/docs/hito_6/compose.md) Composición de microservicios.
