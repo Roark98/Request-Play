@@ -11,4 +11,4 @@ RUN npm install && npm update && npm cache clean --force
 
 COPY ./api/ .
 
-CMD ["npm", "run", "test"]
+CMD ["npm", "run", "start"]

@@ -11,11 +11,14 @@ services:
       POSTGRES_DB: ecuatourism
     volumes: 
       - ./api/database/database.sql:/docker-entrypoint-initdb.d/database.sql
+      - ./api/database/file.sql:/docker-entrypoint-initdb.d/file.sql
 
   ecuatourism:
+    container_name: api
     build: .
+    image: ecuatourism
     ports:
-      - "4000:4000"
+      - "3000:3000"
     depends_on:
       - db
     environment:
